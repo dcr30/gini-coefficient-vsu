@@ -6,13 +6,13 @@
 class TextWord
 {
 public:
-	unsigned int count;
-	std::string word;
+    unsigned int count;
+    std::string word;
 
-	TextWord(std::string word, int count);
-	TextWord(std::string word);
+    TextWord(std::string word, int count);
+    TextWord(std::string word);
 
-	static int Comparator(const TextWord * textWord1, const TextWord * textWord2);
+    static int Comparator(const TextWord * textWord1, const TextWord * textWord2);
 };
 
 #endif
